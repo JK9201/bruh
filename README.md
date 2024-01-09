@@ -1,9 +1,14 @@
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
 
-<p align="center">𝓡𝓐𝓕𝓣𝓐𝓡 𝓤𝓢𝓔𝓡𝓑𝓞𝓣 🍷</p>
+<p align="center">──「 𝓡𝓐𝓕𝓣𝓐𝓡 𝓤𝓢𝓔𝓡𝓑𝓞𝓣 🍷 」──</p>
 
-[![RAFTAR 🍷](https://graph.org/file/b9fce6ec182487d232768.jpg)](https://t.me/DevilSupportChat)
+<p align="center">
+     <img src="https://graph.org/file/0c88393320b519489e24d.jpg"
+</p>
 
+<p align="center">──「 𝓡𝓐𝓕𝓣𝓐𝓡 𝓤𝓢𝓔𝓡𝓑𝓞𝓣 🍷 」──</p>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 ## Requirements 
 
