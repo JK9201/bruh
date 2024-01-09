@@ -22,7 +22,7 @@
 
 ## Development 
 
-**Heroku Development currently**
+**Heroku Development**
 
 <p align="center"><a href="http://dashboard.heroku.com/new?template=https://github.com/VARC9210/RAFTAR"> <img src="https://www.herokucdn.com/deploy/button.svg" width="220" height="38.45"/></a></p>
 
