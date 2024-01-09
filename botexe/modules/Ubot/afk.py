@@ -11,7 +11,7 @@ afk_watcher = 6
 async def afk(client, message):
   reason = message.text.split(None, 1)[1] if len(message.command) > 1 else ''
   tim = time.time()
-  txt = "see yaa !, am afk"+ "\n\n" + f"reason: `{reason}`" if reason else "see yaa !, am afk"
+  txt = "ꜱᴇᴇ ʏᴀᴀ !, ᴀᴍ ᴀꜰᴋ"+ "\n\n" + f"reason: `{reason}`" if reason else "see yaa !, am afk"
   await message.edit(txt)
   await add_afk({"afk_time": tim, "afk_reason": reason})
   
@@ -24,7 +24,7 @@ async def afk(client, message):
     if message.text:
       if message.text.lower().startswith(f'{hl}afk'):
         return
-    txt = "I'm back online, afk for" + f' `{grt(int(time.time() - det[0]))}`.'
+    txt = "ɪ'ᴍ ʙᴀᴄᴋ ᴏɴʟɪɴᴇ, ᴀꜰᴋ ꜰᴏʀ" + f' `{grt(int(time.time() - det[0]))}`.'
     if det[1]:
       txt += "\n\n"
       txt += "reason :" + f" `{det[1]}`"
