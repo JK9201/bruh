@@ -1,8 +1,6 @@
 import os
 from os import getenv
 
-""" Here is all variables we need for deploy userbot"""
-
 # API_IDS ~ my.telegram.org
 API_ID = int(getenv("API_ID", "")) # API_ID get it from my.telegram.org
 API_HASH = os.getenv("API_HASH", "") # API_HASH get it from my.telegram.org
@@ -21,21 +19,21 @@ MONGO_URI = os.getenv("MONGO_URI", "") # MONGO_URI fill here mongodb database ur
 # PORN ~ spam
 ALLOW_PORN = getenv("ALLOW_PORN", True) # u can enable and disable porn spam from here 
 
-""" © @Imshivaexe """
+""" R A F T A R"""
+
 #-----------------------------------------------------------------------------------------
-""" You don't need to edit beyond this. """
 
 ALIVE_PIC = os.getenv("ALIVE_PIC", "")
 if not ALIVE_PIC:
-    ALIVE_PIC = "https://graph.org/file/cbe8e398c5d84587b7a34.jpg"
+    ALIVE_PIC = "https://graph.org/file/c470ed44e1f01628363a2.jpg"
     
 HELP_PIC = os.getenv("HELP_PIC", "")
 if not HELP_PIC:
-    HELP_PIC = "https://graph.org/file/cbe8e398c5d84587b7a34.jpg"
+    HELP_PIC = "https://graph.org/file/25b43a65c2eb7e35d8642.jpg"
 
 PM_PIC = os.getenv("PM_PIC", "")
 if not PM_PIC:
-    PM_PIC = "https://graph.org/file/ddaac37448e7d58602ae6.jpg"
+    PM_PIC = "https://graph.org/file/711a2d716879956bfccbf.jpg"
 
 NEWS_API = os.getenv("NEWS_API", "")
 if not NEWS_API:
