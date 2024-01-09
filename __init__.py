@@ -5,27 +5,27 @@ import time
 startTime = time.time()
 
 if not API_ID:
-    print("api_id not found..!! 🍷 ")
+    print("ᴀᴘɪ_ɪᴅ ɴᴏᴛ ꜰᴏᴜɴᴅ..!! 🍷 ")
     sys.exit()
 
 if not API_HASH:
-    print("api_hash not found..!! 🍷")
+    print("ᴀᴘɪ_ʜᴀꜱʜ ɴᴏᴛ ꜰᴏᴜɴᴅ..!! 🍷")
     sys.exit()
 
 if not SESSION:
-    print("session not found..!! 🍷")
+    print("ꜱᴇꜱꜱɪᴏɴ ɴᴏᴛ ꜰᴏᴜɴᴅ..!! 🍷")
     sys.exit()
 
 if not TOKEN:
-    print("bot_token not found..!! 🍷")
+    print("ʙᴏᴛ_ᴛᴏᴋᴇɴ ɴᴏᴛ ꜰᴏᴜɴᴅ..!! 🍷")
     sys.exit()
 
 if not MONGO_URI:
-    print("mongo_url not found..!! 🍷")
+    print("ᴍᴏɴɢᴏ_ᴜʀʟ ɴᴏᴛ ꜰᴏᴜɴᴅ..!! 🍷")
     sys.exit()
 
 if not LOGGER_ID:
-    print("logger_id not found..!! 🍷")
+    print("ʟᴏɢɢᴇʀ_ɪᴅ ɴᴏᴛ ꜰᴏᴜɴᴅ..!! 🍷")
     sys.exit()
 
 Bot = Client(
@@ -36,7 +36,7 @@ Bot = Client(
     in_memory=True,
 )
 
-Bunny = Client(name="Imshivaexe", api_id=API_ID, api_hash=API_HASH, session_string=SESSION)
+Bot = Client(name="ʀᴀꜰᴛᴀʀ 🌪", api_id=API_ID, api_hash=API_HASH, session_string=SESSION)
 
 API_ID = API_ID
 API_HASH = API_HASH
