@@ -36,7 +36,7 @@ Bot = Client(
     in_memory=True,
 )
 
-Bot = Client(name="ʀᴀꜰᴛᴀʀ 🌪", api_id=API_ID, api_hash=API_HASH, session_string=SESSION)
+Ubot = Client(name="ʀᴀꜰᴛᴀʀ 🌪", api_id=API_ID, api_hash=API_HASH, session_string=SESSION)
 
 API_ID = API_ID
 API_HASH = API_HASH
