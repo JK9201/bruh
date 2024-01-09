@@ -1,28 +1,28 @@
-from Imshivaexe import Bunny, Bot
+from botexe import Ubot, Bot
 import asyncio
 import time
 import importlib
 from pyrogram import Client, idle
-from Imshivaexe.modules import ALL_MODULES
+from botexe.modules import ALL_MODULES
 from config import LOGGER_ID
 
 async def start_user():
-    await Bot.start()
-    print("[•RBX•]: єνєяутнιиg ιѕ σк, ѕтαятιиg... уσυя υѕєявσт ρℓєαѕє ωαιт... ⚡")
+    await Ubot.start()
+    print("[•R A FT A R•]: ᴇᴠᴇʀʏᴛʜɪɴɢ ɪꜱ ᴏᴋ, ꜱᴛᴀʀᴛɪɴɢ... ʏᴏᴜʀ ᴜꜱᴇʀʙᴏᴛ ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ... ⚡")
     for all_module in ALL_MODULES:
         importlib.import_module("Imshivaexe.modules" + all_module)
-        print(f"[•RBX•] ѕυ¢¢єѕѕfυℓℓу ιмρσятє∂ {all_module} ⚡")
-    await Bunny.start()
-    x = await Bunny.get_me()
-    print(f"υѕєявσт ѕυ¢¢єѕѕfυℓℓყ ѕтαятє∂ αѕ {x.first_name} ⚡ ")
+        print(f"[•R A F T A R•] ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ɪᴍᴘᴏʀᴛᴀᴛᴇᴅ {all_module} ⚡")
+    await Ubot.start()
+    x = await Ubot.get_me()
+    print(f"ᴜꜱᴇʀʙᴏᴛ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ꜱᴛᴀʀᴛᴇᴅ ᴀꜱ {x.first_name} ⚡ ")
     try:
-     await Bunny.join_chat("RaBBiTXSupport")
-     await Bunny.join_chat("RaBBiTXUpdate")
+     await Ubot.join_chat("DevilSupportChat")
+     await Ubot.join_chat("UNI_INDIA_0008")
     except:
       pass
     try:
-     await Bunny.send_message(LOGGER_ID, "__**ѕтαятє∂ !!**__")
-     await Bot.send_message(LOGGER_ID, "__**ѕтαятє∂ !!**__")
+     await Ubot.send_message(LOGGER_ID, "__**ѕ—͟͞͞★ 𝑺ț𝒶𝕣țₑԀ ★**__")
+     await Bot.send_message(LOGGER_ID, "__**—͟͞͞★ 𝑺ț𝒶𝕣țₑԀ ★**__")
     except:
       pass
     await idle()
